@@ -8,15 +8,15 @@ export const routes: Routes = [
   },
   {
     path: 'login',
-    loadComponent: () => import('./pages/login/login').then((m) => m.Login),
+    loadComponent: () => import('./features/login/login').then((m) => m.Login),
   },
   {
     path: 'board',
-    loadComponent: () => import('./pages/board/board').then((m) => m.Board),
+    loadComponent: () => import('./features/board/board').then((m) => m.Board),
   },
   {
     path: 'report',
-    loadComponent: () => import('./pages/report/report').then((m) => m.Report),
+    loadComponent: () => import('./features/report/report').then((m) => m.Report),
   },
   {
     path: '**',

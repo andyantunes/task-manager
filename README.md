@@ -12,7 +12,7 @@
 - [x] Criar workspace Angular (`ng new task-manager`).
 - [x] Adicionar Tailwind CSS e Zard UI.
 - [x] Configurar roteamento inicial (`/login`, `/board`, `/report`).
-- [ ] Criar estrutura de pastas organizada (`core`, `shared`, `features`).
+- [x] Criar estrutura de pastas organizada (`core`, `shared`, `features`).
 
 ---
 
